@@ -1,0 +1,274 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:eurocad
+LIBS:header-jacks-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_5X2 P1
+U 1 1 58AE0A22
+P 3200 3300
+F 0 "P1" H 3200 3600 60  0000 C CNN
+F 1 "CONN_5X2" V 3200 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 3200 3300 60  0001 C CNN
+F 3 "" H 3200 3300 60  0000 C CNN
+	1    3200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3100 2500 3100
+Wire Wire Line
+	2800 3200 2500 3200
+Wire Wire Line
+	2800 3300 2500 3300
+Wire Wire Line
+	2800 3400 2500 3400
+Wire Wire Line
+	2800 3500 2500 3500
+Wire Wire Line
+	3600 3100 3900 3100
+Wire Wire Line
+	3600 3200 3900 3200
+Wire Wire Line
+	3600 3300 3900 3300
+Wire Wire Line
+	3600 3400 3900 3400
+Wire Wire Line
+	3600 3500 3900 3500
+Text Label 2500 3100 0    60   ~ 0
+GND
+Text Label 3900 3100 2    60   ~ 0
+GND
+Text Label 2500 3200 0    60   ~ 0
+SIG8
+Text Label 2500 3300 0    60   ~ 0
+SIG7
+Text Label 2500 3400 0    60   ~ 0
+SIG6
+Text Label 2500 3500 0    60   ~ 0
+SIG5
+Text Label 3900 3500 2    60   ~ 0
+SIG4
+Text Label 3900 3400 2    60   ~ 0
+SIG3
+Text Label 3900 3300 2    60   ~ 0
+SIG2
+Text Label 3900 3200 2    60   ~ 0
+SIG1
+Wire Wire Line
+	5800 1200 5500 1200
+Wire Wire Line
+	5800 1300 5500 1300
+Wire Wire Line
+	5800 1450 5500 1450
+Text Label 5500 1200 0    60   ~ 0
+SIG1
+Text Label 5500 1450 0    60   ~ 0
+GND
+NoConn ~ 5500 1300
+Wire Wire Line
+	5800 1800 5500 1800
+Wire Wire Line
+	5800 1900 5500 1900
+Wire Wire Line
+	5800 2050 5500 2050
+Text Label 5500 1800 0    60   ~ 0
+SIG2
+Text Label 5500 2050 0    60   ~ 0
+GND
+NoConn ~ 5500 1900
+Wire Wire Line
+	5800 2400 5500 2400
+Wire Wire Line
+	5800 2500 5500 2500
+Wire Wire Line
+	5800 2650 5500 2650
+Text Label 5500 2400 0    60   ~ 0
+SIG3
+Text Label 5500 2650 0    60   ~ 0
+GND
+NoConn ~ 5500 2500
+Wire Wire Line
+	5800 3000 5500 3000
+Wire Wire Line
+	5800 3100 5500 3100
+Wire Wire Line
+	5800 3250 5500 3250
+Text Label 5500 3000 0    60   ~ 0
+SIG4
+Text Label 5500 3250 0    60   ~ 0
+GND
+NoConn ~ 5500 3100
+Wire Wire Line
+	5800 3600 5500 3600
+Wire Wire Line
+	5800 3700 5500 3700
+Wire Wire Line
+	5800 3850 5500 3850
+Text Label 5500 3600 0    60   ~ 0
+SIG5
+Text Label 5500 3850 0    60   ~ 0
+GND
+NoConn ~ 5500 3700
+Wire Wire Line
+	5800 4200 5500 4200
+Wire Wire Line
+	5800 4300 5500 4300
+Wire Wire Line
+	5800 4450 5500 4450
+Text Label 5500 4200 0    60   ~ 0
+SIG6
+Text Label 5500 4450 0    60   ~ 0
+GND
+NoConn ~ 5500 4300
+Wire Wire Line
+	5800 4800 5500 4800
+Wire Wire Line
+	5800 4900 5500 4900
+Wire Wire Line
+	5800 5050 5500 5050
+Text Label 5500 4800 0    60   ~ 0
+SIG7
+Text Label 5500 5050 0    60   ~ 0
+GND
+NoConn ~ 5500 4900
+Wire Wire Line
+	5800 5400 5500 5400
+Wire Wire Line
+	5800 5500 5500 5500
+Wire Wire Line
+	5800 5650 5500 5650
+Text Label 5500 5400 0    60   ~ 0
+SIG8
+Text Label 5500 5650 0    60   ~ 0
+GND
+NoConn ~ 5500 5500
+$Comp
+L PJ301M-12 J1
+U 1 1 58AE1104
+P 6250 1300
+F 0 "J1" H 5900 1100 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 1550 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 1300 50  0001 C CNN
+F 3 "" H 6250 1300 50  0000 C CNN
+	1    6250 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J2
+U 1 1 58AE11C0
+P 6250 1900
+F 0 "J2" H 5900 1700 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 2150 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 1900 50  0001 C CNN
+F 3 "" H 6250 1900 50  0000 C CNN
+	1    6250 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J3
+U 1 1 58AE11F4
+P 6250 2500
+F 0 "J3" H 5900 2300 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 2750 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 2500 50  0001 C CNN
+F 3 "" H 6250 2500 50  0000 C CNN
+	1    6250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J4
+U 1 1 58AE11FA
+P 6250 3100
+F 0 "J4" H 5900 2900 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 3350 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 3100 50  0001 C CNN
+F 3 "" H 6250 3100 50  0000 C CNN
+	1    6250 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J5
+U 1 1 58AE12BE
+P 6250 3700
+F 0 "J5" H 5900 3500 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 3950 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 3700 50  0001 C CNN
+F 3 "" H 6250 3700 50  0000 C CNN
+	1    6250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J6
+U 1 1 58AE12C4
+P 6250 4300
+F 0 "J6" H 5900 4100 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 4550 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 4300 50  0001 C CNN
+F 3 "" H 6250 4300 50  0000 C CNN
+	1    6250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J7
+U 1 1 58AE12CA
+P 6250 4900
+F 0 "J7" H 5900 4700 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 5150 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 4900 50  0001 C CNN
+F 3 "" H 6250 4900 50  0000 C CNN
+	1    6250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PJ301M-12 J8
+U 1 1 58AE12D0
+P 6250 5500
+F 0 "J8" H 5900 5300 50  0000 C CNN
+F 1 "PJ301M-12" H 6100 5750 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 6250 5500 50  0001 C CNN
+F 3 "" H 6250 5500 50  0000 C CNN
+	1    6250 5500
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

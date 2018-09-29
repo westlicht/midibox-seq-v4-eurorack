@@ -1,0 +1,3 @@
+[submodule "pcb/header-jacks/library"]
+	path = pcb/header-jacks/library
+	url = https://github.com/nebs/eurocad.git
